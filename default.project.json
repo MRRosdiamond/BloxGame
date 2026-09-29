@@ -1,0 +1,164 @@
+{
+  "name": "spaceconquest",
+  "tree": {
+    "$className": "DataModel",
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0.1882352977991104,
+          0.11764705926179886,
+          0.18039216101169586
+        ],
+        "Brightness": 2.200000047683716,
+        "ColorShift_Top": [
+          1.0,
+          0.7686274647712708,
+          0.8627451062202454
+        ],
+        "EnvironmentDiffuseScale": 1.0,
+        "EnvironmentSpecularScale": 1.0,
+        "ExposureCompensation": 0.15000000596046448,
+        "FogColor": [
+          0.7529412508010864,
+          0.7529412508010864,
+          0.7529412508010864
+        ],
+        "GeographicLatitude": 0.0,
+        "GlobalShadows": true,
+        "OutdoorAmbient": [
+          0.1882352977991104,
+          0.11764705926179886,
+          0.18039216101169586
+        ],
+        "Outlines": false,
+        "PrioritizeLightingQuality": true,
+        "ShadowSoftness": 0.20000000298023224,
+        "Technology": "ShadowMap",
+        "TimeOfDay": "12:00:00"
+      },
+      "$path": "src/Lighting"
+    },
+    "ReplicatedFirst": {
+      "$path": "src/ReplicatedFirst"
+    },
+    "ReplicatedStorage": {
+      "$path": "src/ReplicatedStorage"
+    },
+    "ServerScriptService": {
+      "$path": "src/ServerScriptService"
+    },
+    "ServerStorage": {
+      "$path": "src/ServerStorage"
+    },
+    "SoundService": {
+      "$properties": {
+        "DefaultListenerLocation": "Camera",
+        "RespectFilteringEnabled": true
+      },
+      "$path": "src/SoundService"
+    },
+    "StarterGui": {
+      "$properties": {
+        "ScreenOrientation": "Sensor"
+      },
+      "$path": "src/StarterGui"
+    },
+    "StarterPack": {
+      "$path": "src/StarterPack"
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterCharacterScripts": {
+        "$path": "src/StarterPlayer/StarterCharacterScripts"
+      },
+      "StarterPlayerScripts": {
+        "$path": "src/StarterPlayer/StarterPlayerScripts"
+      },
+      "$properties": {
+        "AvatarJointUpgrade": "Enabled",
+        "CameraMaxZoomDistance": 1500.0,
+        "CharacterBreakJointsOnDeath": false,
+        "CharacterUseJumpPower": false
+      }
+    },
+    "Teams": {
+      "$path": "src/Teams"
+    },
+    "Workspace": {
+      "$properties": {
+        "AutoSimulate": {
+          "Bool": true
+        },
+        "ExpandedTerrain": {
+          "Enum": 0
+        },
+        "GravityDirection": {
+          "Vector3": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        "MapTVRemoteToGamepadKeycodes": {
+          "Enum": 0
+        },
+        "PlayerScriptsUseInputActionSystem": "Enabled",
+        "PredictiveStreamingMode": {
+          "Enum": 0
+        },
+        "SignalBehavior": "Deferred",
+        "SimulationRate": {
+          "Float32": 1.0
+        },
+        "StreamOutBehavior": "Opportunistic",
+        "StreamingAdaptiveRadius": {
+          "Bool": false
+        },
+        "StreamingIntegrityMode": "PauseOutsideLoadedArea",
+        "UseInputSink": {
+          "Enum": 0
+        },
+        "Wind": {
+          "Float32": 0.0
+        },
+        "WindDirection": {
+          "Vector3": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "WorldPivotData": {
+          "OptionalCFrame": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        }
+      },
+      "$attributes": {
+        "Rojo_Target_CurrentCamera": "58035493e1468d430a825fcf000003c9"
+      },
+      "$path": "src/Workspace"
+    }
+  }
+}

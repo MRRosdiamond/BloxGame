@@ -1,0 +1,7 @@
+# Build output
+/build/
+*.rbxl.lock
+*.rbxlx.lock
+
+# Tooling
+sourcemap.json
